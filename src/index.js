@@ -17,3 +17,4 @@ function uniquePaths(m, n) {
     return dp[m - 1][n - 1];
   }
   
+  module.exports = uniquePaths;
